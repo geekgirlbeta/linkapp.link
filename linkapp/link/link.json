@@ -1,0 +1,11 @@
+{
+    "type": "object",
+    "properties": {
+        "page_title": { "type": "string" },
+        "desc_text": { "type": "string" },
+        "url_address": { "type": "string" },
+        "author": { "type": "string" },
+        "created": { "type": "string", "format": "date-time" }
+    }, 
+    "required": ["page_title", "desc_text", "url_address", "author"]
+}
